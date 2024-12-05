@@ -15,7 +15,7 @@ This is the way i did it.
 
 ### How to
 
-1. Add a Shortcut on your iphone [https://www.icloud.com/shortcuts/029ab5f2503a4a3eaa549f7fdeae1048](Download shortcut)
+1. Add a Shortcut on your iphone [https://www.icloud.com/shortcuts/029ab5f2503a4a3eaa549f7fdeae1048]
 <img src="./images/shortcut.jpeg" width="200">
 
 2. Add a Shortcut automation on your iphone (mine just run every night at 00:00)
