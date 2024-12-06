@@ -18,7 +18,7 @@ This is the way i did it.
 1. Add a Shortcut on your iphone [https://www.icloud.com/shortcuts/029ab5f2503a4a3eaa549f7fdeae1048]
 <img src="./images/shortcut.jpeg" width="200">
 
-2. Add a Shortcut automation on your iphone (mine just run every night at 00:00)
+2. Add a Shortcut automation on your iphone (mine just run every week night at 00:00)
 <img src="./images/shortcut-automation.jpeg" width="200">
 
 ## Home assistant
@@ -30,3 +30,12 @@ This is the way i did it.
 
 2. Create a Automation
 <img src="./images/ha-automation.png" width="200">
+
+```
+action: input_datetime.set_datetime
+metadata: {}
+data:
+  time: "{{ as_timedelta(trigger.json.message | replace('.', ':') + ':00') }}"
+target:
+  entity_id: input_datetime.morning_alarm
+```
