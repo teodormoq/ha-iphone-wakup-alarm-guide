@@ -2,14 +2,13 @@
 
 <img src="./images/intro.png" width="400">
 
-I had the philips hue automation in their app, where its slowly turned on my lights in my bedroom. I just had one problem where its also did it when i wasn't home.
-So i found a script on the internet that i could do the same as the automation they did in the philips hue app just in home assistant that fixed that.
+I had a Philips Hue automation in their app that gradually turned on the lights in my bedroom. However, I encountered a problem where it would also activate when I wasn’t home. To fix this, I found a script online that replicated the automation from the Philips Hue app but instead implemented it in Home Assistant, which resolved the issue.
 
-But then i had another problem, if i was going to wake up another time then i needed to change both my iphone alarm and the HA alarm, so i tried to research how to get them synced.
+But then I faced another challenge: if I needed to wake up at a different time, I had to change both my iPhone alarm and the Home Assistant alarm manually. So, I researched how to synchronize them.
 
-This is the way i did it.
+Here’s how I did it:
 
-#### Disclaimer: This will only work if you are on the same wifi as your HA (but its should posible to get it work offline too)
+#### Disclaimer: This method only works if you're connected to the same Wi-Fi network as your Home Assistant. (It should also be possible to get it working offline with some modifications.)
 
 ## Apple Shortcuts
 
